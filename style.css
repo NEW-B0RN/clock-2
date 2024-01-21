@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+.container{
+    background-color: #fffafa;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 50px;
+}
+
+#mode{
+    background-color: #001F3F;
+    color: #fffafa;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+#mode:hover{
+    background-color:rgba(0, 0, 0, 0.518);
+    color: black;
+    transform: scale(1.2);
+}
+
+.time , .date {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    color: #001F3F;
+}
+.time{
+    font-size: 90px;
+    align-items: center;
+}
+.date{
+    font-size: 30px;
+    color: rgba(125, 125, 125, 0.677);
+}
+
+.date .circle{
+    color: wheat;
+    background-color: #001F3F;
+    border-radius: 50%;
+    padding-bottom: 2px;
+    padding-right: 4px;
+}
+#ampm{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(30, 30, 30, 0.639);
+
+}
