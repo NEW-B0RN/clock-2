@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        
+
         <div class="mode">
             <button id="mode">Dark Mode</button>
         </div>
 
-        <div class="time">
-            0:54 AM
+        <div class="time" id="hours">
+            0:
+            <span id="minutes">00</span>
+
+            <span id="ampm">
+                AM
+            </span>
         </div>
 
-        <div class="date">
-            "Sunday, jan"
-            <span class="circle">
-                21
+        <div id=" day" class="date">
+                Sunday,
+                <span id="month">
+                Jan
             </span>
+            <span id= " date" class="circle">
+                    21
+                </span>
         </div>
 
         <div class weather>
@@ -31,4 +41,5 @@
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>

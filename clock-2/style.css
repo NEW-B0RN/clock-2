@@ -32,7 +32,8 @@
     color: #001F3F;
 }
 .time{
-    font-size: 70px;
+    font-size: 90px;
+    align-items: center;
 }
 .date{
     font-size: 30px;
@@ -46,4 +47,9 @@
     padding-bottom: 2px;
     padding-right: 4px;
 }
+#ampm{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(30, 30, 30, 0.639);
 
+}
