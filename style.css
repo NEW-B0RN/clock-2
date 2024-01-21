@@ -40,7 +40,7 @@
     color: rgba(125, 125, 125, 0.677);
 }
 
-.date .circle{
+.date span{
     color: wheat;
     background-color: #001F3F;
     border-radius: 50%;
@@ -53,3 +53,5 @@
     color: rgba(30, 30, 30, 0.639);
 
 }
+
+
